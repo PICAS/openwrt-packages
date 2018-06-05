@@ -25,7 +25,7 @@ Building NETCONF support
 * Add [OpenCPE package feed][2] to `feeds.conf.default`, like:
 
 ```
-src-git opencpe https://github.com/opencpe/openwrt-packages.git
+src-git opencpe https://github.com/PICAS/openwrt-packages.git
 ```
 
 * Disable OpenWrt's `management` feed in `feeds.conf.default`, like:
