@@ -13,7 +13,7 @@ PKG_REV:=27ec8f84a7b336dee10a03d118db0d5ab9569b3b
 PKG_RELEASE:=1
 
 PKG_SOURCE:=mand-$(PKG_REV).tar.gz
-PKG_SOURCE_URL:=git://github.com/opencpe/mand
+PKG_SOURCE_URL:=https://github.com/PICAS/mand
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=$(PKG_REV)
