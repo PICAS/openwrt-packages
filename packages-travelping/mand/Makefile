@@ -33,7 +33,7 @@ define Package/mand
 endef
 
 TARGET_CFLAGS += \
-	-std=gnu99
+	-std=gnu99 -fno-strict-aliasing
 
 CONFIGURE_VARS += \
 	CFLAGS="$(TARGET_CFLAGS)"
