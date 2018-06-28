@@ -62,7 +62,7 @@ define Package/mand/install
 
 	$(INSTALL_DIR) $(1)/etc/dm
 	$(CP) ./files/dm.xml $(1)/etc/dm
-	$(VERSION_SED) $(1)/etc/dm/dm.xml
+	$(VERSION_SED_SCRIPT) $(1)/etc/dm/dm.xml
 
 	$(INSTALL_DIR) $(1)/jffs/etc
 endef
